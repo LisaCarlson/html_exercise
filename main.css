@@ -1,0 +1,79 @@
+body {
+	margin: 20px;
+	background-color: #ECEFF1;
+	text-align: center;
+	font-family: font-family: 'Neuton', serif;
+}
+
+/* Select by tagname */
+h1 {
+  color: #FFF;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px #222;
+
+}
+
+h2, h3, h4 {
+	font-size: 40px;
+	color: white;
+	text-shadow: 5px 5px 10px #222;
+}
+
+section {
+	width: 100%;
+
+}
+
+header {
+	background-color: #FFC400;
+	border: 5px solid #000;
+	margin-bottom: 10px;
+}
+
+.main {
+	height: 100%;
+
+}
+.sub-headers {
+	background-color: #FF9100;
+}
+/* Select by classname */
+
+
+/* Select a single element by its ID */
+#header-primary {
+  text-transform: uppercase;
+}
+
+/* Select all H1s AND all .header-alts */
+div {
+	background-color: #607D8B;
+	border: 5px solid #000;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+}
+/* Use descendent selectors */
+div p {
+  font-style: italic;
+}
+
+/* Target all p's and a's inside of divs */
+div p, div a {}
+
+.column-right {
+	width: 45%;
+	float: right;
+	margin: 10px;
+}
+
+.column-left {
+	margin: 10px;
+	width: 45%;
+	float: left;
+}
+
+
+
